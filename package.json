@@ -1,0 +1,25 @@
+{
+  "name": "tryouts",
+  "version": "1.0.0",
+  "description": "These are some tryouts in html and css.",
+  "main": "tailwind.config.js",
+  "dependencies": {
+    "tailwindcss": "^3.2.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "tailwindcss -i ./input.css -o ./css/main.css",
+    "watch": "tailwindcss -i ./input.css -o ./css/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZnerolBE/tryouts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZnerolBE/tryouts/issues"
+  },
+  "homepage": "https://github.com/ZnerolBE/tryouts#readme"
+}
